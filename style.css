@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat&display=swap');
+
+:root {
+    --cor-de-fundo-escura: #1E1E1E;
+    --cor-fonte-clara: white;
+
+    --fonte-primaria: 'Gloock', serif;
+    --fonte-segundaria: 'Montserrast', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--cor-de-fundo-escura);
+    color: var(--cor-fonte-clara);
+    font-size: 50px;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+texto-principal {
+    font-family: var(--fonte-primaria);
+
+    font-weight: 400;
+}
+
+#formulario {
+    font-family: var(--fonte-segundaria);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 16px;
+
+    border: 2px solid var(--cor-fonte-clara);
+    border-radius: 20px;
+}
+
+label {
+    font-family: var(--fonte-segundaria);
+}
+
+#numeros {
+    text-align: center;
+
+    height: 50px;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botao {
+    flex: 1;
+    height: 50px;
+    border-radius: 8px;
+    padding: 12px;
+}

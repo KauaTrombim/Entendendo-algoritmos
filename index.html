@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Capitulo 2</title>
 </head>
 
 <body>
-
-    <h2>Encontrar o menor Elemento</h2>
+    <h2 class="texto-principal">Manipulador de listas</h2>
 
     <form id="formulario">
-        <label for="numeros"></label>
+        <label for="numeros">Digite uma sequência de números:</label>
         <input type="text" placeholder="Ex: 1,2,3,4" id="numeros">
-        <input type="submit" value="Enviar">Encontrar menor numero</input>
+        <div class="botoes">
+            <input type="submit" value="Encontrar Menor" class="botao" id="EncontrarMenor"></input>
+            <input type="submit" value="Ordernar Lista" class="botao" id="OrdenarLista"></input>
+        </div>
     </form>
-
 </body>
 <script src="main.js"></script>
 
